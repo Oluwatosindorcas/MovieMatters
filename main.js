@@ -105,7 +105,7 @@
       const movieDataElement = movieDataDiv.append('div');
       try {
         movieDataElement.append(() => createLoadingAnimation().node());
-        const API_KEY="21900dbb"
+        const API_KEY="d9bc1f9b1b3eb1230504935dbb5d31c6"
         const url = `http://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}${
           genre ? `&with_genres=${genre}` : ''
         }&region=US&with_release_type=3|2&primary_release_date.gte=${year}-${(
