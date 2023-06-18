@@ -4,7 +4,7 @@
 }
 /* styles.css */
 body {
-  background-image: url("image.jpg");
+ 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -182,3 +182,17 @@ footer {
   text-align: center;
 }
 
+.card{
+  background-color:green;
+  width: 50%;
+  padding: 15px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 10px solid #000;
+  text-align: center;}
+
+  .image{
+  background-image: url("C:\Users\hp\Desktop\100 DAYS OF CODE\movies-master\image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }

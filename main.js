@@ -27,8 +27,8 @@
     .attr('id', 'mainContainer')
     .attr('class', 'container');
 
-  mainContainer.append('h1').attr('id', 'top').text('TMDB New Releases');
-
+  mainContainer.append('h1').attr('id', 'top').text('New Movie Releases');
+   
   const optionsDiv = mainContainer.append('div').attr('id', 'options');
   const yearDiv = optionsDiv.append('div').attr('id', 'year');
   const genreDiv = optionsDiv.append('div').attr('id', 'genre');
@@ -106,7 +106,7 @@
       try {
         movieDataElement.append(() => createLoadingAnimation().node());
 
-        const url = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}${
+        const url = `http://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}${
           genre ? `&with_genres=${genre}` : ''
         }&region=US&with_release_type=3|2&primary_release_date.gte=${year}-${(
           '0' +
