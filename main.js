@@ -304,8 +304,7 @@
       const currentRegion = document.getElementById('regionSelect').value;
       getMovieDataForYear(currentYear, currentGenre, currentRegion);
     });
-
-  const regionData = {
+ const regionData = {
     US: 'United States',
     GB: 'United Kingdom',
     CA: 'Canada',
@@ -315,7 +314,7 @@ AG: "Antigua and Barbuda",
 AL: "Albania", 
 AO: "Angola", 
 AR: "Argentina",
-AT: "Austria”,
+AT: "Austria",
 AU: "Australia", 
 AZ: "Azerbaijan", 
 BA: "Bosnia and Herzegovina",
@@ -344,7 +343,7 @@ CY: "Cyprus",
 CZ: "Czech Republic",
 DE: "Germany",
 DK: "Denmark",
-DO: "Dominican Republic"
+DO: "Dominican Republic",
 DZ: "Algeria",
 EC: "Ecuador",
 EE: "Estonia",
@@ -395,7 +394,7 @@ MG: "Madagascar",
 MK: "Macedonia",
 ML: "Mali",
 MT: "Malta",
-MU: "Mauritius"
+MU: "Mauritius",
 MW: "Malawi",
 MX: "Mexico",
 MY: "Malaysia",
