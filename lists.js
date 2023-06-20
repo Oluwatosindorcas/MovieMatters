@@ -77,8 +77,8 @@ const genres = [
         "name": "Western"
       }
     ]
-  /*
-const regions =
+
+const regionData =
  [
     {
       "iso_3166_1": "AD",
@@ -776,7 +776,7 @@ const regions =
       "native_name": "Zimbabwe"
     }
   ]
-*/
+
 
 
 const months = [
