@@ -81,7 +81,10 @@
       return d.id;
     });
 
-  const getMovieDataForYear = async (year, genre) => {
+
+    
+  
+    const getMovieDataForYear = async (year, genre) => {
     // clear
     monthsDiv.html('');
     movieDataDiv.html('');
@@ -114,7 +117,9 @@
         ).slice(-2)}-01&primary_release_date.lte=${year}-${(
           '0' +
           (index + 1)
-        ).slice(-2)}-31`;
+        ).slice(-2)}-31`; 
+        
+
 
         const movieData = await $d3.json(url);
 
@@ -197,3 +202,5 @@
 
   await getMovieDataForYear(2020, $genres[0].id);
 })(d3, genres, months, desiredHeaders);
+
+
